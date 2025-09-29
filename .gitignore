@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+outputs/VA/grad_cam/*
+outputs/Treatment/grad_cam/*
+
+EOF
