@@ -6,7 +6,7 @@ def build_augmentation_layer(flip, zoom, contrast, noise):
     """
     def augment(inputs):
         """ Apply specified augmentations to the input images."""
-        x = inputs
+        x = inputs # Input layer
         if flip == "vertical":
             x = layers.RandomFlip("vertical")(x)
         elif flip == "horizontal":
